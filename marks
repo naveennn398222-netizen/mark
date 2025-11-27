@@ -1,0 +1,16 @@
+
+def calculate_grade(m1, m2, m3, m4, m5):
+    average = (m1 + m2 + m3 + m4 + m5) / 5
+    print("Average =", average)
+
+    if average >= 90:
+        print("Grade: A")
+    elif average >= 75:
+        print("Grade: B")
+    elif average >= 60:
+        print("Grade: C")
+    elif average >= 40:
+        print("Grade: D")
+    else:
+        print("Grade: Fail")
+calculate_grade(85, 78, 92, 74, 88)
